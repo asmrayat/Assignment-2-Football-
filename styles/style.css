@@ -32,6 +32,7 @@ h1{
      font-weight: 500;
     font-size: 16px;
     padding: 14px 35px;
+    border-radius: 50px;
     
  }
  .top-section2 img{
@@ -107,6 +108,7 @@ h2{
     font-size: 16px;
     padding: 14px 35px;
     margin-top: 24px;
+    border-radius: 50px;
    
 }
  .news2 img{
@@ -130,6 +132,9 @@ h2{
      padding-bottom: 50px;
  }
  /* unknonw */
+ .yellow-colour{
+     color: #FFA500;
+ }
  .subscribe{
      text-align: center;
      font-size: 25px;
@@ -190,7 +195,26 @@ h2{
  }
  .full-news{
      text-decoration: none;
-     background-color: white;
-     color: black;
-     border-radius: 5px;
+     background-color: #E02C6D;
+     color: white;
+     border-radius: 50px;
+     padding-left: 4px;
+     padding-right: 4px;
+ }
+ /* footer */
+footer{
+    margin-top: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .footerimg{
+     width: 484px;
+     height: 110px;
+ }
+ .footer-social i{
+    margin: 0 14px;
+    font-size: 25px;
+}
  }
