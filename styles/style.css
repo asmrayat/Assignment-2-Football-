@@ -9,47 +9,11 @@ header{
     width: 100%;
     height: 730px;
  }
- .navbar{
-    width: 1160px;
-    height: 44px;
-    margin-left: 156px;
-    padding-top: 42px;
- }
- nav{
-     display: flex;
-     justify-content: space-between;
- }
-
- .top{
+.top{
      display: flex;
      justify-content: center;
  }
- nav ul{
-     display: flex;
- }
- nav li{
-     list-style: none;
-     margin-right: 36px;
- }
- nav li a{
-     text-decoration: none;
-     color: white;
- }
- .login{
-     border: 1px solid #E02C6D;
-     background-color: #E02C6D;
-     height: 44px;
-     width: 123px;
- }
- .fa-sign-in-alt{
-     color: wheat;
-     padding-right: 8px;
- }
- .loginbtn{
-    text-decoration: none;
-    color: white;
-    padding-top: 16px;
- }
+
  .top-section1{
     margin-left: 156px;
     margin-right: 102px;
@@ -60,6 +24,15 @@ header{
  }
 h1{
     font-size: 64px;
+ }
+ .watchnow{
+     text-decoration: none;
+     color: white;
+     background-color: #E02C6D;
+     font-weight: 500;
+    font-size: 16px;
+    padding: 14px 35px;
+    
  }
  .top-section2 img{
      margin-right: 141px;
@@ -108,7 +81,9 @@ h1{
  p{
     color: #6C6C6C;
  }
-
+.mid-text{
+    margin-bottom: 45px;
+}
  /* news */
 .news{
     display: flex;
@@ -123,6 +98,16 @@ h2{
     padding-right: 66px;
     width: 469px;
     height: 241px;
+}
+.official-site{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 14px 35px;
+    margin-top: 24px;
+   
 }
  .news2 img{
     width: 567px;
@@ -167,24 +152,45 @@ h2{
  }
 
  /* online-news-style */
+ 
 .online-news{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 25px;
+    padding-bottom: 80px;
+}
+.textfornews{
+    text-align: center;
+    color:  #2D25A0;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 .blog{
-    padding: 30px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     background-color: #2D25A0;
+    border-radius: 10px;
 
 }
+.news-title{
+    color: white;
+}
+.news-headline{
+    color: rgba(255, 255, 255, 0.678);
+}
  .online-news .blog img{
-     width: 200px;
-     height: 120px;
+     width: 370px;
+     height: 207px;
+     border-radius: 10px;
+     display: block;
+     margin: 0 auto 5px auto;
  }
  .full-news{
      text-decoration: none;
-     background-color: red;
+     background-color: white;
      color: black;
      border-radius: 5px;
  }
