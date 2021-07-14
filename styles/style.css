@@ -70,19 +70,16 @@ h1{
  }
 
  /* players */
+ 
 
  .players{
+    display: grid;
+    grid-template-columns: repeat(3 ,0fr);
     padding-left: 180px;
     padding-top: 70px;
     padding-bottom: 165px;
     padding-right: 210px;
-    height: 2214px;
-    width: 100%
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(3, 0fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 27px; 
+
  }
  .players .player img{
     width: 300px;
@@ -99,6 +96,9 @@ h1{
     width: 330px;
     height: 474px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 27px;
+    margin-left: 15px;
+    margin-right: 15px;
  }
  h3{
     color: black;
@@ -107,4 +107,84 @@ h1{
  }
  p{
     color: #6C6C6C;
+ }
+
+ /* news */
+.news{
+    display: flex;
+    margin-bottom: 158px;
+}
+h2{
+    font-size: 48px;
+}
+.news1{
+    
+    padding-left: 182px;
+    padding-right: 66px;
+    width: 469px;
+    height: 241px;
+}
+ .news2 img{
+    width: 567px;
+    height: 427px;
+    padding-right: 156px;
+ }
+
+ /* video */
+.textformatch{
+    text-align: center;
+    color:  white;
+    background-color: #2D25A0;
+    margin: 0;
+}
+ .video{
+     display: flex;
+     justify-content: space-evenly;
+     background-color: #2D25A0;
+     padding-top: 54px;
+     padding-bottom: 50px;
+ }
+ /* unknonw */
+ .subscribe{
+     text-align: center;
+     font-size: 25px;
+     background-color: #2D25A0;
+     margin: 0;
+     padding-bottom: 50px;
+ }
+ .fa-youtube{
+     color: red;
+     background-color: white;
+    border-radius: 10px;
+ }
+ .sub-subscribe{
+    text-decoration: none;
+    color: white;
+    background-color: #CC0000;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+ }
+
+ /* online-news-style */
+.online-news{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+}
+.blog{
+    padding: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color: #2D25A0;
+
+}
+ .online-news .blog img{
+     width: 200px;
+     height: 120px;
+ }
+ .full-news{
+     text-decoration: none;
+     background-color: red;
+     color: black;
+     border-radius: 5px;
  }
