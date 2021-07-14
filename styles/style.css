@@ -27,6 +27,15 @@ header{
 h1{
     font-size: 64px;
  }
+.watchnow:hover{
+    text-decoration: none;
+     color: white;
+     background-color: #E02C6D;
+     font-weight: 500;
+    font-size: 16px;
+    padding: 25px 40px;
+    border-radius: 50px;
+}
  .watchnow{
      text-decoration: none;
      color: white;
@@ -116,6 +125,16 @@ h2{
     margin-top: 24px;
     border-radius: 50px;
    
+}
+.official-site:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 25px 40px;
+    margin-top: 24px;
+    border-radius: 50px;
 }
  .news2 img{
     width: 567px;
