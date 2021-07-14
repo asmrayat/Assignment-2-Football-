@@ -217,4 +217,104 @@ footer{
     margin: 0 14px;
     font-size: 25px;
 }
- }
+
+/* media Queries */
+
+/* Mobile Devices */
+@media only screen and (max-width :688px) {
+    header {
+        background-color: #2D25A0;
+        width: 100%;
+        height: 695px;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .top-section1 {
+        margin-left: 227px;
+        margin-right: 230px;
+        margin-top: 94px;
+        color: #FFFFFF;
+        width: 285px;
+        height: 230px;
+    }
+    .top-section2 img {
+        margin-top: 72px;
+        margin-right: 0;
+        width: 329px;
+        height: 260px;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1 ,0fr);
+        padding-left: 20px;
+        padding-top: 58px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin-right: 0;
+    }
+    .news{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .news1 {
+        padding-left: 72px;
+        /* padding-right: 52px; */
+        width: 340px;
+        height: 490px;
+        margin-right: 0px
+        margin-left: 0px
+    }
+    .news2 img {
+        width: 328px;
+        height: 248px;
+        padding-right: 0; 
+    }
+    h2 {
+        font-size: 36px;
+    }
+    .online-news {
+        grid-row-gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-column-gap: 25px; */
+        /* padding-bottom: 80px; */
+        /* margin: 0; */
+        /* padding: 0; */
+    }
+.video {
+    display: flex;
+    background-color: #2D25A0;
+    padding-top: 54px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    width: 410;
+    height: 248;
+}
+.blog {
+    padding: 20px;
+    margin-left: 0;
+     margin-right:0; 
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    background-color: #2D25A0;
+    border-radius: 10px;
+}
+footer {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerimg {
+    width: 347px;
+    height: 87px;
+    padding-bottom: 33px;
+}
